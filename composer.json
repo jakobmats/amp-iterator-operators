@@ -1,0 +1,21 @@
+{
+	"keywords" : [
+		"iterator stream async"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"AmpIteratorOperators\\" : "src"
+		},
+		"files": [
+			"src/functions.php"
+		]
+	},
+	"name" : "jakobmats/iterator-operators",
+	"type" : "library",
+	"description" : "Iterator operators for Amp",
+	"require" : {
+		"php" : ">=7.2",
+		"amphp/amp" : "~2.1",
+		"amphp/byte-stream" : "~1.5"
+	}
+}

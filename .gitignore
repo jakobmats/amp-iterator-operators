@@ -1,0 +1,6 @@
+.buildpath
+.project
+.settings/
+analyzer
+composer.phar
+vendor/
